@@ -1,4 +1,4 @@
-package _1_memory_address
+package main
 
 import "fmt"
 
@@ -13,5 +13,8 @@ func main(){
 
 	fmt.Println(b)		// 0xc420014068
 	fmt.Println(*b)		// 17													// dereferencing the b var from the value of the address
+
+	*b = 42				// b says, "Now the value at this address is 42"
+	fmt.Println(a)		// 42
 
 }
