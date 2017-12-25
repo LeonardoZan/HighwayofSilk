@@ -12,5 +12,5 @@ func main(){
 
 	print_func()
 	fmt.Printf("%T\n",print_func)			//allow us to print the type of the var passed (in this case is func() type)
-	
+
 }
